@@ -1,5 +1,8 @@
-#idk what this thingy is called
-*.dYSM
+#debug symbols
+*.dYSM/
+
+#some annoying ahh macOS bs
+.DS_Store
 
 # Prerequisites
 *.d
