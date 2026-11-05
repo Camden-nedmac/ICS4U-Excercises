@@ -1,3 +1,8 @@
+#ignore unix executables while keeping other files
+*
+!*.*
+!*/
+
 #debug symbols
 *.dYSM/
 
