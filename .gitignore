@@ -1,7 +1,22 @@
-#ignore unix executables while keeping other files
+# 1. Ignore ALL files by default
 *
-!*.*
+
+# 2. Allow Git to enter directories so it can find sub-files
 !*/
+
+# 3. Un-ignore directories you want to track (if needed)
+# !src/
+
+# 4. Whitelist ONLY specific file extensions you want to track
+!*.cpp
+!*.hpp
+!*.c
+!*.h
+!*.md
+!*.txt
+!*.json
+!*.cmake
+!CMakeLists.txt
 
 #debug symbols
 *.dYSM/
