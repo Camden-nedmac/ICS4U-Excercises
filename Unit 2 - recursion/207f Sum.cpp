@@ -15,7 +15,7 @@ int sum(int *array, int size){
 void recursiveSum(int *array, int n, int& sum){
     if(n == 0){
         sum += array[n];
-    } 
+    }
     else {
         //this just feels wrong. like bleh
         sum += array[n];
@@ -36,7 +36,7 @@ int main(){
     //cout << sum(array, size);
 
     int sum = 0;
-    recursiveSum(array, size, sum);
+    recursiveSum(array, size - 1, sum);
     cout << sum;
     
     delete[] array;
