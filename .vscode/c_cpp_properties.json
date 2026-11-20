@@ -9,7 +9,7 @@
             "cStandard": "c23",
             "cppStandard": "c++20",
             "intelliSenseMode": "macos-clang-arm64",
-            "compilerPath": ""
+            "compilerPath": "/usr/bin/clang++"
         }
     ],
     "version": 4

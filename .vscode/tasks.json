@@ -8,8 +8,8 @@
                 "-fcolor-diagnostics",
                 "-fansi-escape-codes",
                 "${file}",
+                "-std=c++20",
                 "-o",
-                //"-std=c++20",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "options": {
